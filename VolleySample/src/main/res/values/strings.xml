@@ -2,7 +2,8 @@
 <resources>
 
     <string name="app_name">VolleySample</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="main_list_empty">No Data.</string>
 
 </resources>
