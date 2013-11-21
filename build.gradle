@@ -3,7 +3,7 @@
 /*
  * サブプロジェクト Volley 用のビルドスクリプト
  */
-project(':modules:volley') {
+final Project project = project(':modules:volley') {
     buildscript {
         repositories {
             mavenCentral()

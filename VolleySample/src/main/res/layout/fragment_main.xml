@@ -4,18 +4,20 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity$PlaceholderFragment">
+    tools:context=".MainActivity$MainListFragment">
 
-    <ListView
-        android:id="@id/android:list"
+    <GridView
+        android:id="@+id/grid_icon"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:numColumns="2"
         android:drawSelectorOnTop="true" />
     <TextView
         android:id="@id/android:empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:text="@string/main_list_empty" />
 
 </LinearLayout>

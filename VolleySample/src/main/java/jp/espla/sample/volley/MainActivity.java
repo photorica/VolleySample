@@ -10,6 +10,8 @@ import jp.espla.sample.volley.fragment.MainListFragment;
 
 public class MainActivity extends ActionBarActivity {
 
+    private static final String TAG = "MainActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,11 +26,6 @@ public class MainActivity extends ActionBarActivity {
     }
 
     @Override
-    protected  void onResume() {
-        super.onResume();
-    }
-
-    @Override
     protected  void onStart() {
         super.onStart();
     }
@@ -36,6 +33,11 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected  void onRestart() {
         super.onRestart();
+    }
+
+    @Override
+    protected  void onResume() {
+        super.onResume();
     }
 
     @Override
